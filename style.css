@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  width: 100%;
+}
+.announcement-navbar {
+  font-size: 16px;
+  color: white;
+  background-color: #20232a;
+  padding: 8px 30px;
+  text-align: center;
+}
+.announcement-navbar h2 {
+  font-size: 20px;
+}
+.announcement-link {
+  color: #61dafb;
+}
+.announcement-link:hover {
+  color: #06bcee;
+}
+.main-navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #20232a;
+  color: white;
+  position: sticky;
+}
+.navbar_items {
+  width: 30%;
+  position: relative;
+  margin-left: 40px;
+  top: 25%;
+  left: 3%;
+}
+div b {
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+h3 a {
+  color: #61dafb;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+ul li a:hover {
+  color: #06bcee;
+}
+.navigation-links {
+  width: 100%;
+  position: relative;
+  left: 141%;
+  top: -32px;
+}
+.navigation-links ul {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+section.main-section {
+  background-color: #282c34;
+  height: 500px;
+}
+.main-section .tag-line {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+.main-section .header-title {
+  color: #61dafb;
+  font-size: 84px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.section-text a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12.75px 25.5px;
+  margin-top: 20px;
+}
+.primary-btn {
+  color: #282c34;
+  background-color: #61dafb;
+  font-size: 25px;
+  font-weight: 500;
+}
+a.primary-btn:hover {
+  background-color: white;
+}
+a.secondary-btn:hover {
+  color: white;
+}
+.secondary-btn {
+  font-size: 21.25px;
+  color: #61dafb;
+}
+.section-text {
+  margin: 0px 300px;
+  position: relative;
+  top: 125px;
+}
+.mobile-img {
+  position: relative;
+  left: 20%;
+  top: -13px;
+}
+.right-paragraph {
+  height: 503px;
+  width: 450px;
+  position: relative;
+  left: 54%;
+  top: -515px;
+}
+.right-paragraph h2 {
+  width: 400px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+.strong-paragraph {
+  letter-spacing: 2px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.code-details {
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+  width: 100%;
+  background-color: whitesmoke;
+  position: relative;
+  border: 1px solid white;
+  top: -667px;
+}
+.left-box {
+  width: 50%;
+  padding-left: 300px;
+  margin-top: 48px;
+  padding-top: 20px;
+}
+.left-box .heading {
+  font-size: 25px;
+}
+.react-content {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 300;
+}
+.right-box {
+  width: 50%;
+}
